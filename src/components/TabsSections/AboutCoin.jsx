@@ -60,7 +60,7 @@ const AboutCoin = () => {
             
             <div className="p-4">
                 <div className="text-xl font-bold text-white leading-[28px]">Calculate your Profits</div>
-                <button className=" my-2 bg-white px-6 py-2 rounded-lg text-sm font-semibold leading-7 active:scale-95 transition-all">Check Now <FaArrowRight className="inline"/> </button>
+                <button className=" my-2 bg-white px-4 text-nowrap py-2  rounded-lg text-sm font-semibold leading-7 active:scale-95 transition-all">Check Now <FaArrowRight className="inline"/> </button>
             </div>
         </div>
 
@@ -71,7 +71,7 @@ const AboutCoin = () => {
             
             <div className="p-4">
                 <div className="text-xl font-bold text-white leading-[28px]">Calculate your tax liability</div>
-                <button className=" my-2 bg-white px-6 py-2 rounded-lg text-sm font-semibold leading-7 active:scale-95 transition-all">Check Now <FaArrowRight className="inline"/> </button>
+                <button className=" my-2 bg-white px-4  text-nowrap py-2 rounded-lg text-sm font-semibold leading-7 active:scale-95 transition-all">Check Now <FaArrowRight className="inline"/> </button>
             </div>
         </div>
 
@@ -81,7 +81,7 @@ const AboutCoin = () => {
 
         </div>  
 
-        <p className="font-medium text-textGrey pb-4 border-b">
+        <p className="font-medium text-textGrey pb-4 ">
         Fermentum hendrerit imperdiet nulla viverra faucibus. Sit aliquam massa vel convallis duis ac. Mi adipiscing semper scelerisque porttitor pulvinar nunc risus. Fermentum potenti iaculis lacinia congue ipsum fames amet dui. Purus ultrices tincidunt volutpat in eget. Ullamcorper dui
       </p> 
     </div>
