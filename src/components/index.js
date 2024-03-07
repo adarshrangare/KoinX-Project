@@ -5,6 +5,17 @@ import ChartCard from "./ChartCard/ChartCard";
 import TabSwitcher from "./TabSwitcher/TabSwitcher";
 import PerformanceGraph from "./PerformanceGraph/PerformanceGraph";
 import Performance from "./TabsSections/Performance";
+import AboutCoin from "./TabsSections/AboutCoin";
+import CryptoCard from "./CryptoCard";
 
-
-export {ContentWrapper,Navbar,TradingViewChart,ChartCard,TabSwitcher,Performance,PerformanceGraph};
+export {
+  ContentWrapper,
+  Navbar,
+  TradingViewChart,
+  ChartCard,
+  TabSwitcher,
+  Performance,
+  PerformanceGraph,
+  AboutCoin,
+  CryptoCard,
+};
