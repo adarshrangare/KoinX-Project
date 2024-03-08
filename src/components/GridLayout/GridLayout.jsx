@@ -3,16 +3,18 @@ import { MainSection,SparkLines ,Trending } from "../../Sections";
 const GridLayout = () => {
   return (
     <div className="gridLayout">
-      <div className="main grid grid-cols-3 gap-4 max-md:grid-cols-1   ">
-        <div className=" col-start-1 col-span-2 ">
+      <div className="main  gap-4 grid grid-cols-1   ">
+        <div className=" md:col-span-2">
           <MainSection />
         </div>
-        <div className=" col-start-3 ">
-          <SparkLines />
-        </div>
-        <div className="  col-start-1 col-span-4 ">
+        <div className=" bg-green-400 md:col-span-3 ">
           <Trending />
         </div>
+        <div className=" bg-red-200 md:col-start-3 md:row-start-1">
+          <SparkLines />
+        </div>
+        
+        
       </div>
     </div>
   );
