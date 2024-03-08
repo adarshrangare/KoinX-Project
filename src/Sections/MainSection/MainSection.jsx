@@ -12,7 +12,7 @@ const MainSection = () => {
     })
 
   return (
-    <main className="">
+    <main className="relative">
     <ChartCard/>
     <TabSwitcher/>
     <Performance/>

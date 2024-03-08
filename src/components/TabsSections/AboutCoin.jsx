@@ -5,7 +5,7 @@ import profitCal from "../../Assets/profitCal.png"
 import { FaArrowRight } from "react-icons/fa6";
 const AboutCoin = () => {
   return (
-    <div className="my-4 p-4 border rounded-xl bg-white">
+    <div className="my-4 p-4 border rounded-xl bg-white" id="Overview">
       <h2 className="text-2xl font-semibold mt-4 ">About Bitcoin</h2>
 
       <div>

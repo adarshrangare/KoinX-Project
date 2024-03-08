@@ -4,7 +4,7 @@ import Fundamentals from './Fundamentals'
 
 const Performance = () => {
   return (
-    <div className='w-full p-4 my-4 bg-white border rounded-lg'>
+    <div className='w-full p-4 my-4 bg-white border rounded-lg' id='Fundamentals'>
         <h2 className='text-2xl font-semibold '>Performance</h2>
 
         <PerformanceGraph/>

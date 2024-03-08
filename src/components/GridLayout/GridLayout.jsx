@@ -7,10 +7,10 @@ const GridLayout = () => {
         <div className=" md:col-span-2">
           <MainSection />
         </div>
-        <div className=" bg-green-400 md:col-span-3 ">
+        <div className=" md:col-span-3 ">
           <Trending />
         </div>
-        <div className=" bg-red-200 md:col-start-3 md:row-start-1">
+        <div className="  md:col-start-3 md:row-start-1">
           <SparkLines />
         </div>
         

@@ -7,8 +7,9 @@ import PerformanceGraph from "./PerformanceGraph/PerformanceGraph";
 import Performance from "./TabsSections/Performance";
 import AboutCoin from "./TabsSections/AboutCoin";
 import CryptoCard from "./CryptoCard";
-
+import Carousel from "./Carousel/Carousel";
 export {
+  Carousel,
   ContentWrapper,
   Navbar,
   TradingViewChart,

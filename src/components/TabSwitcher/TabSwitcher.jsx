@@ -6,10 +6,10 @@ const TabSwitcher = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className=" overflow-scroll mt-8">
+    <div className="mt-8 w-fit py-2   ">
       <ul
-        className="flex gap-8 border-b-2 overflow-scroll  relative  "
-        onClick={(e) => {}}
+        className="flex gap-8 border-b-2 overflow-y-hidden overflow-x-scroll  relative  "
+        
       >
         {linksArray.map((link, index) => (
           <li
@@ -32,3 +32,4 @@ const TabSwitcher = () => {
 };
 
 export default TabSwitcher;
+
